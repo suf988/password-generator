@@ -1,0 +1,36 @@
+.outerDiv{
+    @apply w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 my-14 py-9 text-orange-500 bg-gray-700 text-2xl
+}
+
+.heading{
+    @apply text-white text-center my-3
+}
+
+.inputDiv{
+    @apply flex shadow rounded-lg overflow-hidden mb-4
+}
+
+.inputField{
+    @apply outline-none w-full py-1 px-3
+}
+
+.button{
+    @apply outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0
+    hover:bg-blue-900 duration-200
+}
+
+.rangeDiv{
+    @apply flex text-sm gap-x-3
+}
+
+.optionsDiv{
+    @apply flex items-center gap-x-3 text-lg mt-3
+}
+
+.displayDiv{
+    @apply bg-gray-700 text-2xl w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 my-14 py-9
+}
+
+.displayText{
+    @apply text-center my-3 text-orange-500
+}
