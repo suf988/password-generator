@@ -45,7 +45,7 @@ const PasswordGenerator = () => {
         <>
                 <div className="outerDiv">
 
-                    <h1 className="heading">My Password Generator</h1>
+                    <h1 className="heading">Password Generator</h1>
 
                     <div className="inputDiv">
                         <input type="text"
